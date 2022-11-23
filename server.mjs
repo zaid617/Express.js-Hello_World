@@ -1,11 +1,9 @@
-import express from 'express';
-
-
+import express from 'express'
 const app = express()
 const port = process.env.PORT || 3000
 
 app.get('/', (req, res) => {
-  res.send('response from zaid laptop', req.ip)
+  res.send('Response From Zaid computer')
 })
 
 app.listen(port, () => {
